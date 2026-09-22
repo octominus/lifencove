@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>life'n COVE — Sevdiklerinle sakin bir liman</title>
+  <meta name="description" content="life'n COVE: ortak listeler, arkadaşlar arası tatlı yarışlar ve kendi kendini imha eden etkinlik alanları. Kalabalık gruplardan uzak, sevdiklerinle sakin bir liman.">
+  <meta name="theme-color" content="#E3F2FD">
+  <meta property="og:title" content="life'n COVE">
+  <meta property="og:description" content="Connect, share, and anchor together.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <header class="nav glass glass-floating">
+    <a class="wordmark" href="#top" aria-label="life'n COVE ana sayfa">COVE</a>
+    <nav class="nav-links" aria-label="Bölümler">
+      <a href="#moduller">Modüller</a>
+      <a href="#felsefe">Felsefe</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" lang="en">life'n COVE</p>
+      <h1 class="display">Sevdiklerinle<br>sakin bir liman.</h1>
+      <p class="lead">
+        Kalabalık grupların kaosundan uzak; ortak listeler, tatlı yarışlar ve
+        biten etkinlikle birlikte kaybolan alanlar. Bir “self” uygulaması değil,
+        bir “us” uygulaması.
+      </p>
+      <div class="hero-actions">
+        <span class="pill glass glass-card">Yakında Android ve iOS'ta</span>
+      </div>
+      <p class="tagline">Connect, share, and anchor together.</p>
+    </section>
+
+    <section id="moduller" class="section">
+      <h2 class="section-title">Üç sakin alan</h2>
+      <div class="cards">
+        <article class="card glass glass-card">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>
+          </div>
+          <h3 class="card-title">Cove List</h3>
+          <p class="body">
+            Eşinle, ev arkadaşlarınla ortak market ve yapılacaklar listesi.
+            Anlık senkron, ama bildirim bombardımanı yok — sessizce arka planda akar.
+          </p>
+        </article>
+
+        <article class="card glass glass-card">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3c1 3 4 4.5 4 8.5a4 4 0 0 1-8 0c0-1.6.7-2.8 1.5-3.8.3 1.3 1 2 1.8 2.3C11 7.5 11.5 5 12 3z"/><path d="M8 20h8"/></svg>
+          </div>
+          <h3 class="card-title">Challenges</h3>
+          <p class="body">
+            Arkadaşlarınla alışkanlık üzerine tatlı yarışlar. Seri tut, işaretle,
+            gerekirse bir dürtmeyle hatırlat. Sağlık verisi yok — yalnızca sosyal taahhüt.
+          </p>
+        </article>
+
+        <article class="card glass glass-card">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="7"/><path d="M12 9v4l2.5 2M10 3h4"/></svg>
+          </div>
+          <h3 class="card-title">Pop-up Spaces</h3>
+          <p class="body">
+            Bir akşam yemeği, bir hafta sonu kaçamağı. Etkinlik bitince alan da
+            kendi kendini imha eder — gruptan çıkma derdi yok.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="felsefe" class="section">
+      <div class="philosophy glass glass-floating">
+        <h2 class="section-title">Bak ve Çık</h2>
+        <ul class="principles">
+          <li>
+            <span class="principle-title">Hızlı bir bakış yeter</span>
+            <span class="caption">Her ekran bir bakışta anlaşılır. Seni içeride tutmaya çalışmaz.</span>
+          </li>
+          <li>
+            <span class="principle-title">Sessiz teknoloji</span>
+            <span class="caption">Yalnızca davetler ve dürtmeler gibi değerli anlar telefonuna düşer.</span>
+          </li>
+          <li>
+            <span class="principle-title">Geçicilik bir özellik</span>
+            <span class="caption">Biten etkinliğin grubu sonsuza dek durmaz. Silinmesi hata değil, ürünün kendisi.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="wordmark wordmark-small">COVE</span>
+    <span class="caption">© <span id="year">2026</span> life'n COVE</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
